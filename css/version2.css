@@ -38,24 +38,19 @@ img {
    fff white
 */
 
-.text h2 {
-    text-align: center;
-}
-
 article {
     color: #000;
     margin: 0;
-    padding: 2rem 0rem;
+    padding: 2rem 2rem;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     flex: 1 1 auto;
 }
 
 section {
-    max-width: 600px;
-    margin: 0;
+    max-width: 50%;
+    margin: 1rem;
 }
 
 header {
@@ -88,10 +83,7 @@ footer{
 /*ids*/
 #cougar {
     background-color: #B26219;
-}
-
-#cougar .photo {
-    color: #FFF;
+    color: #FFF
 }
 
 #lion {
@@ -104,10 +96,12 @@ footer{
 
 /*classes*/
 .text {
-    background: #FFF;
-    padding: 2rem;
     font-size: 100%;
     line-height: 1.5em;
+}
+
+.text h2{
+    margin: 0;
 }
 
 /* --- link pseudo classes --- */
@@ -121,19 +115,19 @@ a:hover {
     color: #82E8FF;
 }
 
-#cougar .photo a{
+#cougar a{
     color: #FFFF94;
 }
 
-#cougar .photo a:hover{
+#cougar a:hover{
     color: #FFF;
 }
 
-#lion .photo a,#tiger .photo a{
+#lion a,#tiger a{
     color: #5E0080;
 }
 
-#lion .photo a:hover,#tiger .photo a:hover{
+#lion a:hover,#tiger a:hover{
     color: #0D00C2;
 }
 
